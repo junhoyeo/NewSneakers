@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DD75581256568AA0014ADBB /* NewSneakersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD75580256568AA0014ADBB /* NewSneakersApp.swift */; };
+		9DD75583256568AA0014ADBB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD75582256568AA0014ADBB /* ContentView.swift */; };
+		9DD75585256568AC0014ADBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DD75584256568AC0014ADBB /* Assets.xcassets */; };
+		9DD75588256568AC0014ADBB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DD75587256568AC0014ADBB /* Preview Assets.xcassets */; };
+		9DD75593256568AC0014ADBB /* NewSneakersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD75592256568AC0014ADBB /* NewSneakersTests.swift */; };
+		9DD7559E256568AC0014ADBB /* NewSneakersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7559D256568AC0014ADBB /* NewSneakersUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DD7558F256568AC0014ADBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DD75575256568AA0014ADBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DD7557C256568AA0014ADBB;
+			remoteInfo = NewSneakers;
+		};
+		9DD7559A256568AC0014ADBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DD75575256568AA0014ADBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DD7557C256568AA0014ADBB;
+			remoteInfo = NewSneakers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9DD7557D256568AA0014ADBB /* NewSneakers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewSneakers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DD75580256568AA0014ADBB /* NewSneakersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSneakersApp.swift; sourceTree = "<group>"; };
+		9DD75582256568AA0014ADBB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9DD75584256568AC0014ADBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DD75587256568AC0014ADBB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9DD75589256568AC0014ADBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DD7558E256568AC0014ADBB /* NewSneakersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewSneakersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DD75592256568AC0014ADBB /* NewSneakersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSneakersTests.swift; sourceTree = "<group>"; };
+		9DD75594256568AC0014ADBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DD75599256568AC0014ADBB /* NewSneakersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewSneakersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DD7559D256568AC0014ADBB /* NewSneakersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSneakersUITests.swift; sourceTree = "<group>"; };
+		9DD7559F256568AC0014ADBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DD7557A256568AA0014ADBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DD7558B256568AC0014ADBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DD75596256568AC0014ADBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DD75574256568AA0014ADBB = {
+			isa = PBXGroup;
+			children = (
+				9DD7557F256568AA0014ADBB /* NewSneakers */,
+				9DD75591256568AC0014ADBB /* NewSneakersTests */,
+				9DD7559C256568AC0014ADBB /* NewSneakersUITests */,
+				9DD7557E256568AA0014ADBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DD7557E256568AA0014ADBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DD7557D256568AA0014ADBB /* NewSneakers.app */,
+				9DD7558E256568AC0014ADBB /* NewSneakersTests.xctest */,
+				9DD75599256568AC0014ADBB /* NewSneakersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DD7557F256568AA0014ADBB /* NewSneakers */ = {
+			isa = PBXGroup;
+			children = (
+				9DD75580256568AA0014ADBB /* NewSneakersApp.swift */,
+				9DD75582256568AA0014ADBB /* ContentView.swift */,
+				9DD75584256568AC0014ADBB /* Assets.xcassets */,
+				9DD75589256568AC0014ADBB /* Info.plist */,
+				9DD75586256568AC0014ADBB /* Preview Content */,
+			);
+			path = NewSneakers;
+			sourceTree = "<group>";
+		};
+		9DD75586256568AC0014ADBB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9DD75587256568AC0014ADBB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9DD75591256568AC0014ADBB /* NewSneakersTests */ = {
+			isa = PBXGroup;
+			children = (
+				9DD75592256568AC0014ADBB /* NewSneakersTests.swift */,
+				9DD75594256568AC0014ADBB /* Info.plist */,
+			);
+			path = NewSneakersTests;
+			sourceTree = "<group>";
+		};
+		9DD7559C256568AC0014ADBB /* NewSneakersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9DD7559D256568AC0014ADBB /* NewSneakersUITests.swift */,
+				9DD7559F256568AC0014ADBB /* Info.plist */,
+			);
+			path = NewSneakersUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DD7557C256568AA0014ADBB /* NewSneakers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DD755A2256568AC0014ADBB /* Build configuration list for PBXNativeTarget "NewSneakers" */;
+			buildPhases = (
+				9DD75579256568AA0014ADBB /* Sources */,
+				9DD7557A256568AA0014ADBB /* Frameworks */,
+				9DD7557B256568AA0014ADBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewSneakers;
+			productName = NewSneakers;
+			productReference = 9DD7557D256568AA0014ADBB /* NewSneakers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9DD7558D256568AC0014ADBB /* NewSneakersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DD755A5256568AC0014ADBB /* Build configuration list for PBXNativeTarget "NewSneakersTests" */;
+			buildPhases = (
+				9DD7558A256568AC0014ADBB /* Sources */,
+				9DD7558B256568AC0014ADBB /* Frameworks */,
+				9DD7558C256568AC0014ADBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DD75590256568AC0014ADBB /* PBXTargetDependency */,
+			);
+			name = NewSneakersTests;
+			productName = NewSneakersTests;
+			productReference = 9DD7558E256568AC0014ADBB /* NewSneakersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9DD75598256568AC0014ADBB /* NewSneakersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DD755A8256568AC0014ADBB /* Build configuration list for PBXNativeTarget "NewSneakersUITests" */;
+			buildPhases = (
+				9DD75595256568AC0014ADBB /* Sources */,
+				9DD75596256568AC0014ADBB /* Frameworks */,
+				9DD75597256568AC0014ADBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DD7559B256568AC0014ADBB /* PBXTargetDependency */,
+			);
+			name = NewSneakersUITests;
+			productName = NewSneakersUITests;
+			productReference = 9DD75599256568AC0014ADBB /* NewSneakersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DD75575256568AA0014ADBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					9DD7557C256568AA0014ADBB = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					9DD7558D256568AC0014ADBB = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 9DD7557C256568AA0014ADBB;
+					};
+					9DD75598256568AC0014ADBB = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 9DD7557C256568AA0014ADBB;
+					};
+				};
+			};
+			buildConfigurationList = 9DD75578256568AA0014ADBB /* Build configuration list for PBXProject "NewSneakers" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DD75574256568AA0014ADBB;
+			productRefGroup = 9DD7557E256568AA0014ADBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DD7557C256568AA0014ADBB /* NewSneakers */,
+				9DD7558D256568AC0014ADBB /* NewSneakersTests */,
+				9DD75598256568AC0014ADBB /* NewSneakersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DD7557B256568AA0014ADBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DD75588256568AC0014ADBB /* Preview Assets.xcassets in Resources */,
+				9DD75585256568AC0014ADBB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DD7558C256568AC0014ADBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DD75597256568AC0014ADBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DD75579256568AA0014ADBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DD75583256568AA0014ADBB /* ContentView.swift in Sources */,
+				9DD75581256568AA0014ADBB /* NewSneakersApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DD7558A256568AC0014ADBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DD75593256568AC0014ADBB /* NewSneakersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DD75595256568AC0014ADBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DD7559E256568AC0014ADBB /* NewSneakersUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DD75590256568AC0014ADBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DD7557C256568AA0014ADBB /* NewSneakers */;
+			targetProxy = 9DD7558F256568AC0014ADBB /* PBXContainerItemProxy */;
+		};
+		9DD7559B256568AC0014ADBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DD7557C256568AA0014ADBB /* NewSneakers */;
+			targetProxy = 9DD7559A256568AC0014ADBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9DD755A0256568AC0014ADBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9DD755A1256568AC0014ADBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DD755A3256568AC0014ADBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"NewSneakers/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = NewSneakers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = junhoyeo.NewSneakers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DD755A4256568AC0014ADBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"NewSneakers/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = NewSneakers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = junhoyeo.NewSneakers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9DD755A6256568AC0014ADBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NewSneakersTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = junhoyeo.NewSneakersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewSneakers.app/NewSneakers";
+			};
+			name = Debug;
+		};
+		9DD755A7256568AC0014ADBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NewSneakersTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = junhoyeo.NewSneakersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewSneakers.app/NewSneakers";
+			};
+			name = Release;
+		};
+		9DD755A9256568AC0014ADBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NewSneakersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = junhoyeo.NewSneakersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NewSneakers;
+			};
+			name = Debug;
+		};
+		9DD755AA256568AC0014ADBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NewSneakersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = junhoyeo.NewSneakersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NewSneakers;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DD75578256568AA0014ADBB /* Build configuration list for PBXProject "NewSneakers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DD755A0256568AC0014ADBB /* Debug */,
+				9DD755A1256568AC0014ADBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DD755A2256568AC0014ADBB /* Build configuration list for PBXNativeTarget "NewSneakers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DD755A3256568AC0014ADBB /* Debug */,
+				9DD755A4256568AC0014ADBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DD755A5256568AC0014ADBB /* Build configuration list for PBXNativeTarget "NewSneakersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DD755A6256568AC0014ADBB /* Debug */,
+				9DD755A7256568AC0014ADBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DD755A8256568AC0014ADBB /* Build configuration list for PBXNativeTarget "NewSneakersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DD755A9256568AC0014ADBB /* Debug */,
+				9DD755AA256568AC0014ADBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DD75575256568AA0014ADBB /* Project object */;
+}
