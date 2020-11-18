@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D668D652565A87F008EBE1E /* Sneaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D668D642565A87F008EBE1E /* Sneaker.swift */; };
+		9D668D6E2565A90F008EBE1E /* sneakerData.json in Resources */ = {isa = PBXBuildFile; fileRef = 9D668D6D2565A90F008EBE1E /* sneakerData.json */; };
+		9D668D762565AB1C008EBE1E /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D668D752565AB1C008EBE1E /* Data.swift */; };
+		9D668D7E2565B0DF008EBE1E /* SneakerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D668D7D2565B0DF008EBE1E /* SneakerItem.swift */; };
+		9D668D862565B2C7008EBE1E /* SneakerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D668D852565B2C7008EBE1E /* SneakerList.swift */; };
 		9DD75581256568AA0014ADBB /* NewSneakersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD75580256568AA0014ADBB /* NewSneakersApp.swift */; };
-		9DD75583256568AA0014ADBB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD75582256568AA0014ADBB /* ContentView.swift */; };
 		9DD75585256568AC0014ADBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DD75584256568AC0014ADBB /* Assets.xcassets */; };
 		9DD75588256568AC0014ADBB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DD75587256568AC0014ADBB /* Preview Assets.xcassets */; };
 		9DD75593256568AC0014ADBB /* NewSneakersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD75592256568AC0014ADBB /* NewSneakersTests.swift */; };
@@ -34,9 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9D668D642565A87F008EBE1E /* Sneaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sneaker.swift; sourceTree = "<group>"; };
+		9D668D6D2565A90F008EBE1E /* sneakerData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = sneakerData.json; sourceTree = "<group>"; };
+		9D668D752565AB1C008EBE1E /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		9D668D7D2565B0DF008EBE1E /* SneakerItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SneakerItem.swift; sourceTree = "<group>"; };
+		9D668D852565B2C7008EBE1E /* SneakerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SneakerList.swift; sourceTree = "<group>"; };
 		9DD7557D256568AA0014ADBB /* NewSneakers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewSneakers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DD75580256568AA0014ADBB /* NewSneakersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSneakersApp.swift; sourceTree = "<group>"; };
-		9DD75582256568AA0014ADBB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9DD75584256568AC0014ADBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DD75587256568AC0014ADBB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9DD75589256568AC0014ADBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -74,6 +82,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D668D632565A86C008EBE1E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9D668D642565A87F008EBE1E /* Sneaker.swift */,
+				9D668D752565AB1C008EBE1E /* Data.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9D668D6C2565A8F2008EBE1E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9D668D6D2565A90F008EBE1E /* sneakerData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		9DD75574256568AA0014ADBB = {
 			isa = PBXGroup;
 			children = (
@@ -97,11 +122,14 @@
 		9DD7557F256568AA0014ADBB /* NewSneakers */ = {
 			isa = PBXGroup;
 			children = (
+				9D668D6C2565A8F2008EBE1E /* Resources */,
+				9D668D632565A86C008EBE1E /* Models */,
 				9DD75580256568AA0014ADBB /* NewSneakersApp.swift */,
-				9DD75582256568AA0014ADBB /* ContentView.swift */,
 				9DD75584256568AC0014ADBB /* Assets.xcassets */,
 				9DD75589256568AC0014ADBB /* Info.plist */,
 				9DD75586256568AC0014ADBB /* Preview Content */,
+				9D668D7D2565B0DF008EBE1E /* SneakerItem.swift */,
+				9D668D852565B2C7008EBE1E /* SneakerList.swift */,
 			);
 			path = NewSneakers;
 			sourceTree = "<group>";
@@ -241,6 +269,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D668D6E2565A90F008EBE1E /* sneakerData.json in Resources */,
 				9DD75588256568AC0014ADBB /* Preview Assets.xcassets in Resources */,
 				9DD75585256568AC0014ADBB /* Assets.xcassets in Resources */,
 			);
@@ -267,8 +296,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DD75583256568AA0014ADBB /* ContentView.swift in Sources */,
+				9D668D7E2565B0DF008EBE1E /* SneakerItem.swift in Sources */,
+				9D668D862565B2C7008EBE1E /* SneakerList.swift in Sources */,
+				9D668D652565A87F008EBE1E /* Sneaker.swift in Sources */,
 				9DD75581256568AA0014ADBB /* NewSneakersApp.swift in Sources */,
+				9D668D762565AB1C008EBE1E /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
