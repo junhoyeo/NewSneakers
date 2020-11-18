@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		9DD75588256568AC0014ADBB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DD75587256568AC0014ADBB /* Preview Assets.xcassets */; };
 		9DD75593256568AC0014ADBB /* NewSneakersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD75592256568AC0014ADBB /* NewSneakersTests.swift */; };
 		9DD7559E256568AC0014ADBB /* NewSneakersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7559D256568AC0014ADBB /* NewSneakersUITests.swift */; };
+		9DD755B62565706A0014ADBB /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 9DD755B52565706A0014ADBB /* URLImage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DD755B62565706A0014ADBB /* URLImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +148,9 @@
 			dependencies = (
 			);
 			name = NewSneakers;
+			packageProductDependencies = (
+				9DD755B52565706A0014ADBB /* URLImage */,
+			);
 			productName = NewSneakers;
 			productReference = 9DD7557D256568AA0014ADBB /* NewSneakers.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +222,9 @@
 				Base,
 			);
 			mainGroup = 9DD75574256568AA0014ADBB;
+			packageReferences = (
+				9DD755B42565706A0014ADBB /* XCRemoteSwiftPackageReference "url-image" */,
+			);
 			productRefGroup = 9DD7557E256568AA0014ADBB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -333,6 +341,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(SRCROOT)";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -394,6 +403,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(SRCROOT)";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -574,6 +584,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9DD755B42565706A0014ADBB /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.9;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9DD755B52565706A0014ADBB /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DD755B42565706A0014ADBB /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9DD75575256568AA0014ADBB /* Project object */;
 }
