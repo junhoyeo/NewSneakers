@@ -11,7 +11,9 @@ struct SneakerList: View {
     var body: some View {
         NavigationView {
             List (sneakerData, id: \.styleCode) { sneaker in
-                SneakerItem(sneaker: sneaker)
+                NavigationLink (destination: SneakerDetail(sneaker: sneaker)) {
+                    SneakerItem(sneaker: sneaker)
+                }
             }
             .navigationBarTitle(Text("Sneakers"))
         }
