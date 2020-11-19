@@ -8,10 +8,34 @@
 import SwiftUI
 import URLImage
 
+extension Color {
+    init(hex: UInt, alpha: Double = 1) {
+        self.init(
+            .sRGB,
+            red: Double((hex >> 16) & 0xff) / 255,
+            green: Double((hex >> 08) & 0xff) / 255,
+            blue: Double((hex >> 00) & 0xff) / 255,
+            opacity: alpha
+        )
+    }
+}
+
 extension UIScreen{
     static let screenWidth = UIScreen.main.bounds.size.width
     static let screenHeight = UIScreen.main.bounds.size.height
     static let screenSize = UIScreen.main.bounds.size
+}
+
+struct BlackButtonStyle: ButtonStyle {
+    func makeBody(configuration: Self.Configuration) -> some View {
+        configuration.label
+            .padding()
+            .background(
+                LinearGradient(
+                    gradient: Gradient(
+                        colors: [Color(hex: 0x212529), Color(hex: 0x343a40)]),
+                    startPoint: .top, endPoint: .bottom))
+    }
 }
 
 struct SneakerDetail: View {
@@ -35,6 +59,32 @@ struct SneakerDetail: View {
                 }
                 .padding(.top, 5)
             }
+            HStack {
+                Button(action: {print("Buy")}) {
+                    VStack {
+                        Text("Buy")
+                            .foregroundColor(.white)
+                            .font(.system(size: 18))
+                            .bold()
+                        Text("From 600$")
+                            .foregroundColor(.red)
+                            .font(.system(size: 14))
+                    }
+                    .frame(minWidth: 0, maxWidth: .infinity)
+                }.buttonStyle(BlackButtonStyle())
+                Button(action: {print("Sell")}) { VStack {
+                        Text("Sell")
+                            .foregroundColor(.white)
+                            .font(.system(size: 18))
+                            .bold()
+                        Text("From 560$")
+                            .foregroundColor(.green)
+                            .font(.system(size: 14))
+                    }
+                .frame(minWidth: 0, maxWidth: .infinity)
+                }.buttonStyle(BlackButtonStyle())
+            }
+            .padding(.top, 15)
             Spacer()
         }
         .padding()
