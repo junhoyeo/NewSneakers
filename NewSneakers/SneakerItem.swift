@@ -17,8 +17,8 @@ struct SneakerItem: View {
                 RoundedRectangle(cornerRadius: 25)
                     .fill(LinearGradient(
                         gradient: .init(colors:[
-                                            Color(hex: 0xd0ebff),
-                                            Color(hex: 0x74c0fc)
+                            Color(hex: 0xd0ebff),
+                            Color(hex: 0x74c0fc)
                         ]),
                         startPoint: .init(x: 0.5, y: 0),
                         endPoint: .init(x: 0.5, y: 0.6)
@@ -35,20 +35,24 @@ struct SneakerItem: View {
                 }
                 .frame(maxWidth: 86)
             }
-            VStack(alignment: .leading) {
-                Text(sneaker.name)
-                    .font(.system(size: 15, weight: .bold))
-                    .foregroundColor(Color(hex: 0x212529))
-                VStack(alignment: .leading) {
+            VStack(alignment: .leading, spacing: 0) {
+                VStack(alignment: .leading, spacing: 0) {
+                    Text(sneaker.name)
+                        .font(.system(size: 15))
+                        .foregroundColor(Color(hex: 0x212529))
+                        .lineLimit(2)
                     Text(sneaker.colorway)
                         .font(.system(size: 12))
                         .foregroundColor(Color(hex: 0x868e96))
-                    Text(sneaker.styleCode)
-                        .font(.system(size: 12))
-                        .foregroundColor(Color(hex: 0x868e96))
+                        .padding(.top, 5)
+                        .lineLimit(1)
                 }
-                .padding(.top, 5)
+                Spacer()
+                Text("\(sneaker.price.formattedWithSeparator)원")
+                    .font(.system(size: 15, weight: .bold))
+                    .foregroundColor(Color(hex: 0x212529))
             }
+            .padding(.vertical, 5)
             .padding(.leading, 5)
             Spacer()
         }
@@ -60,7 +64,7 @@ struct SneakerItem: View {
         static var previews: some View {
             Group {
                 SneakerItem(sneaker: sneakerData[0])
-                SneakerItem(sneaker: sneakerData[1])
+                SneakerItem(sneaker: sneakerData[2])
             }
             .previewLayout(.fixed(width: 340, height: 100))
         }

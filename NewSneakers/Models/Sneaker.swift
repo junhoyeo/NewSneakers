@@ -12,4 +12,5 @@ struct Sneaker: Hashable, Codable {
     var imageURL: String
     var styleCode: String
     var colorway: String
+    var price: Int
 }

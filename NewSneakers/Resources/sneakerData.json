@@ -5,7 +5,8 @@
         "imageURL":
         "https://kream-phinf.pstatic.net/MjAyMDExMThfMjU2/MDAxNjA1NjkxMzExMTYz.leAiiIeRzdnBC6STAjmeqVlM0lokrpyt7EbsaWUtnnIg.hPz7sqovLq6tPmB6zs8PnR1q8UYkTl8YJiWGKm79cj0g.PNG/p_477d8861bbbd43e8aad3ee5d76c3df76.png",
         "colorway": "White/Black",
-        "styleCode": "DD3223-100"
+        "styleCode": "DD3223-100",
+        "price": 680000
     },
     {
         
@@ -13,14 +14,34 @@
         "imageURL":
         "https://kream-phinf.pstatic.net/MjAyMDEwMjJfOCAg/MDAxNjAzMzQwOTUzNzMx.nCU7Bumo43r7JZcTRjq4blFOcj33dPIxNYW-_94RtWgg.rJwsoEL3W-f7pgpwfYISb-0HBItIWL04h7p8Ixyp8CUg.PNG/p_4cedd884b4a3427ca616bc31b3bf2867.png",
         "colorway": "SAIL/DARK MOCHA-BLACK-BLACK",
-        "styleCode": "555088-105"
+        "styleCode": "555088-105",
+        "price": 320000
     },
     {
         
-        "name": "Jordan 1 Retro High OG Black Mocha",
+        "name": "Jordan 1 Mid Bred Banned 2020",
         "imageURL":
-        "https://kream-phinf.pstatic.net/MjAyMDEwMjJfOCAg/MDAxNjAzMzQwOTUzNzMx.nCU7Bumo43r7JZcTRjq4blFOcj33dPIxNYW-_94RtWgg.rJwsoEL3W-f7pgpwfYISb-0HBItIWL04h7p8Ixyp8CUg.PNG/p_4cedd884b4a3427ca616bc31b3bf2867.png",
-        "colorway": "SAIL/DARK MOCHA-BLACK-BLACK",
-        "styleCode": "555088-12"
+        "https://kream-phinf.pstatic.net/MjAyMDExMDNfMjU4/MDAxNjA0Mzc5MTU2MTk1.0L5X2u3QXofxyYGnq7uzrAOsS194jF5QA-OI5nRLWV0g.qrImQeY9WM_dqg4ab2szCbvI37hajR5-hhitaANCQpEg.PNG/p_fc340387762248e2a8c5a011c2641f48.png",
+        "colorway": "BLACK/GYM RED-WHITE",
+        "styleCode": "554724-074",
+        "price": 161000
+    },
+    {
+        
+        "name": "Nike x Sacai VaporWaffle Black White",
+        "imageURL":
+        "https://kream-phinf.pstatic.net/MjAyMDExMDJfMjc1/MDAxNjA0MzA4MTg2NDgx.MysAFcFuj9VvYd7b67CeLNf9Y9XPrfUknpc6v7pvQ6Ag.MbJ1eRe2hfdF2d9pNX0H-yAg2H3KVdFA4Gc2tXkxVEwg.PNG/p_aea10082d104430b9c16a9d5a1759733.png",
+        "colorway": "Black/Summit White/Pure Platinum",
+        "styleCode": "CV1363-001",
+        "price": 780000
+    },
+    {
+        
+        "name": "Jordan 1 Retro High OG CO.JP Midnight Navy",
+        "imageURL":
+        "https://kream-phinf.pstatic.net/MjAyMDEwMjJfMTM2/MDAxNjAzMzY0NTIxODg2.-yHirNruN_U6N0wF6FDjhrarQzyt7L9ohzjNs7lmb-Qg.yR41xA7ICHv4Dcym4xfTbxhJgw4QaOVRlKv8zhcbfmEg.PNG/p_b9d13541441748f5b9809290b2d3bb5b.png",
+        "colorway": "WHITE/METALLIC SILVER-MIDNIGHT NAVY",
+        "styleCode": "DC1788-100",
+        "price": 250000
     }
 ]
