@@ -13,29 +13,47 @@ struct SneakerItem: View {
     
     var body: some View {
         HStack() {
-            URLImage(
-                url: URL(string: sneaker.imageURL)!
-            ) {image in
-                image
-                    .resizable()
-                    .frame(width: 128, height: 128)
-                    .aspectRatio(contentMode: .fit)
+            ZStack {
+                RoundedRectangle(cornerRadius: 25)
+                    .fill(LinearGradient(
+                        gradient: .init(colors:[
+                                            Color(hex: 0xd0ebff),
+                                            Color(hex: 0x74c0fc)
+                        ]),
+                        startPoint: .init(x: 0.5, y: 0),
+                        endPoint: .init(x: 0.5, y: 0.6)
+                    ))
+                    .frame(width: 90, height: 90)
+                
+                URLImage(
+                    url: URL(string: sneaker.imageURL)!
+                ) {image in
+                    image
+                        .resizable()
+                        .frame(width: 86, height: 86)
+                        .aspectRatio(contentMode: .fit)
+                }
+                .frame(maxWidth: 86)
             }
-            .frame(maxWidth: 128)
             VStack(alignment: .leading) {
                 Text(sneaker.name)
-                    .font(.system(size: 16, weight: .bold))
-                HStack() {
+                    .font(.system(size: 15, weight: .bold))
+                    .foregroundColor(Color(hex: 0x212529))
+                VStack(alignment: .leading) {
                     Text(sneaker.colorway)
                         .font(.system(size: 12))
-                    Spacer()
+                        .foregroundColor(Color(hex: 0x868e96))
                     Text(sneaker.styleCode)
                         .font(.system(size: 12))
+                        .foregroundColor(Color(hex: 0x868e96))
                 }
                 .padding(.top, 5)
             }
+            .padding(.leading, 5)
+            Spacer()
         }
-        .padding()
+        .padding(.vertical, 5)
+        .padding(.horizontal, 20)
     }
     
     struct SneakerItem_Previews: PreviewProvider {
@@ -44,7 +62,7 @@ struct SneakerItem: View {
                 SneakerItem(sneaker: sneakerData[0])
                 SneakerItem(sneaker: sneakerData[1])
             }
-            .previewLayout(.fixed(width: 375, height: 150))
+            .previewLayout(.fixed(width: 340, height: 100))
         }
     }
 }

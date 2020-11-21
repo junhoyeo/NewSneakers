@@ -10,9 +10,13 @@ import SwiftUI
 struct SneakerList: View {
     var body: some View {
         NavigationView {
-            List (sneakerData, id: \.styleCode) { sneaker in
-                NavigationLink (destination: SneakerDetail(sneaker: sneaker)) {
-                    SneakerItem(sneaker: sneaker)
+            ScrollView {
+                LazyVStack {
+                    ForEach (sneakerData, id: \.styleCode) { sneaker in
+                        NavigationLink (destination: SneakerDetail(sneaker: sneaker)) {
+                            SneakerItem(sneaker: sneaker)
+                        }
+                    }
                 }
             }
             .navigationBarTitle(Text("Sneakers"))
